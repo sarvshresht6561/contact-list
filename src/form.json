@@ -1,0 +1,54 @@
+{
+  "add": {
+    "name": "ADD CONTACT",
+    "label": "add",
+    "content": [
+      {
+        "title": "Enter your name: ",
+        "label": "Name",
+        "name": "name",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "title": "Enter your phone number: ",
+        "label": "Phone",
+        "name": "phone",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "title": "Enter your number type: ",
+        "label": "Type",
+        "name": "type",
+        "required": true,
+        "type": "select",
+        "value": ["personal", "office"]
+      },
+      {
+        "title": "Is your number a whatsapp number? ",
+        "label": "isWhatsapp",
+        "name": "iswhatsapp",
+        "required": true,
+        "type": "checkbox"
+      },
+      {
+        "title": "Plaese upload your profile picture here: ",
+        "label": "profilePicture",
+        "name": "profilepicture",
+        "type": "file"
+      }
+    ],
+    "action": ["cancel", "submit"]
+  },
+  "delete": {
+    "name": "DELETE CONTACT",
+    "label": "delete",
+    "content": [
+      {
+        "title": "Are you sure you want to delete this contact? Contact once deleted will be deleted permanently."
+      }
+    ],
+    "action": ["cancel", "OK"]
+  }
+}
